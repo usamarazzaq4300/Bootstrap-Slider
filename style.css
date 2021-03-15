@@ -12,13 +12,13 @@ button
 .prev
 {
     position: fixed;
-    top: 50%;
+    top: 45%;
     margin: auto;
 }
 .next
 {
     position: fixed;
-    top: 50%
+    top: 45%
 }
 #head
 {
@@ -31,4 +31,34 @@ button
 #img
 {
     margin-top: 3%;
+    animation: all 20s img infinite;
+}
+@media screen and (max-width:992px) and (min-width:768px)
+{
+    .prev
+    {
+        margin-top: -13%;
+
+    }
+    .next
+    {
+        margin-top: -13%;
+    }
+    #head
+    {
+        text-align: center;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:767px)
+{
+    .prev
+    {
+        margin-top: -18%;
+
+    }
+    .next
+    {
+        margin-top: -18%;
+    }
 }
