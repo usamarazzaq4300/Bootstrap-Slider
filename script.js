@@ -13,7 +13,7 @@ function increment()
     }
     if(i % 4 == 2)
     {
-        document.getElementById('img').src = 'slide3.jpg'
+        document.getElementById('img').src = 'slide3.jfif'
     }
     if(i % 4 == 3)
     {
@@ -27,7 +27,7 @@ function increment()
     }
     if (i %4 == -2 )
     {
-        document.getElementById('img').src = 'slide3.jpg'
+        document.getElementById('img').src = 'slide3.jfif'
     }
     if (i %4 == -3 )
     {
@@ -49,7 +49,7 @@ function decrement()
     }
     if (i % 4 == 2 )
     {
-        document.getElementById('img').src = 'slide3.jpg'
+        document.getElementById('img').src = 'slide3.jfif'
     }
     if(i % 4 == 3)
     {
@@ -57,7 +57,7 @@ function decrement()
     }
     if(i % 3 == -1 )
     {
-        document.getElementById('img').src = 'slide3.jpg'
+        document.getElementById('img').src = 'slide3.jfif'
         
         
     }
